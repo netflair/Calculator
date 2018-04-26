@@ -13,8 +13,9 @@ body {
 
 #calc {
 	position: relative;
-	width: 275px;
+	width: 300px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 #calcInput {
@@ -35,9 +36,10 @@ body {
 	text-align: right;
 	color: #CAC4C4;
 	font-weight: 900;
-	font-size: 1.3em;
+	font-size: 1em;
 	line-height: 40px;
 	border-bottom: 2px double #322D2D;
+	overflow-y: scroll;
 }
 
 
