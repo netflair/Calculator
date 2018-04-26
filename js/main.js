@@ -8,11 +8,11 @@ document.getElementById('calcInput').addEventListener('keypress', function calc(
     //Calculate on "Enter"(13), show result in "sum"
     if (key === 13) { 
       var calcInput = document.getElementById('calcInput').value;
-      var calcIn = document.getElementById('calcInput');
       sum.innerHTML += calcInput + "=" + eval(calcInput) + "<br>";
-      
+
       //Autoscroll result box (sum)
       sum.scrollTop = sum.scrollHeight;
+
     }
 
 });
